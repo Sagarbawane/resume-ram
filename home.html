@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<title>Ram Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
+
+  hr {
+    border: 1px solid #ff6347;
+
+  }
+
+  i {
+    color: #ff6347;
+  }
+
+  .wave {
+    animation-name: wave-animation;
+    color: #ff6347;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0.0deg)
+    }
+
+    10% {
+      transform: rotate(14.0deg)
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8.0deg)
+    }
+
+    30% {
+      transform: rotate(14.0deg)
+    }
+
+    40% {
+      transform: rotate(-4.0deg)
+    }
+
+    50% {
+      transform: rotate(10.0deg)
+    }
+
+    60% {
+      transform: rotate(0.0deg)
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0.0deg)
+    }
+  }
+
+
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
+
+  /* Set the width of the sidebar to 120px */
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {
+    margin-left: 120px
+  }
+
+  /* Remove margins from "page content" on small screens */
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0
+    }
+  }
+</style>
+
+<body class="w3-black">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="1589919273275 (1) copy.png" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#skills" class="w3-bar-item w3-button" style="width:25% !important">Skills</a>
+
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home" data-aos="fade-up">
+      <h1 class="w3-jumbo" data-aos="fade-up"><span class="wave">👋 Hi</span><span class="w3-hide-small"> I'm</span> Ram
+      </h1>
+      <p data-aos="fade-up">MERN Stack Developer from Pune</p>
+      <img src="1589919273275 (2) copy.png" alt="boy" class="w3-image" data-aos="fade-up" width="300" height="300">
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey" data-aos="fade-up">About Me</h2>
+      <hr style="width:200px" class="w3-opacity" data-aos="fade-up">
+      <p data-aos="fade-up">I am full stack developer from Pune with knowlwdge of HTML5,CSS3,ReactJS and other web
+        development
+        technologies.
+        I have a Bachelor Degree from DYPIEMR , Akurdi in Electronics & Telecommunications.I have done an internship
+        from DCT Academy in Bangalore.I am looking for an opportunity in an organization which will give me equal
+        opportunity to enhance my skills.
+
+      </p>
+      <div class="w3-padding-16 w3-text-light-grey" id="skills">
+        <h2 class="w3-text-light-grey" data-aos="fade-up">My Skills</h2>
+        <hr style="width:200px" class="w3-opacity" data-aos="fade-up">
+        <p class="w3-wide" data-aos="fade-up">HTML5</p>
+        <div class="w3-white" data-aos="fade-up">
+          <div style="height:28px;width:75%;background-color:#ff6347"></div>
+        </div>
+        <p class="w3-wide" data-aos="fade-up">CSS3</p>
+        <div class="w3-white" data-aos="fade-up">
+          <div style="height:28px;width:70%;background-color:#ff6347"></div>
+        </div>
+        <p class="w3-wide" data-aos="fade-up">React JS</p>
+        <div class="w3-white" data-aos="fade-up">
+          <div style="height:28px;width:50%;background-color:#ff6347"></div>
+        </div><br>
+        <p class="w3-wide" data-aos="fade-up">Javascript</p>
+        <div class="w3-white" data-aos="fade-up">
+          <div style="height:28px;width:60%;background-color:#ff6347"></div>
+        </div><br>
+        <p class="w3-wide" data-aos="fade-up">Node JS</p>
+        <div class="w3-white" data-aos="fade-up">
+          <div style="height:28px;width:50%;background-color:#ff6347"></div>
+        </div><br>
+        <p class="w3-wide" data-aos="fade-up">Express JS</p>
+        <div class="w3-white" data-aos="fade-up">
+          <div style="height:28px;width:45%;background-color:#ff6347"></div>
+        </div><br>
+        <p class="w3-wide" data-aos="fade-up">Mongo DB</p>
+        <div class="w3-white" data-aos="fade-up">
+          <div style="height:28px;width:50%;background-color:#ff6347"></div>
+        </div><br>
+        <p class="w3-wide" data-aos="fade-up">Mongoose</p>
+        <div class="w3-white" data-aos="fade-up">
+          <div style="height:28px;width:40%;background-color:#ff6347"></div>
+        </div><br>
+      </div>
+
+      <div>
+        <h2 class="w3-text-light-grey" data-aos="fade-up">Education/Experience</h2>
+        <hr style="width:400px" class="w3-opacity" data-aos="fade-up">
+        <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey" data-aos="fade-up">
+
+          <div class="w3-half w3-section">
+            <span class="w3-xlarge" style="color:#ff6347">2015-19</span><br>
+            DYPIEMR,AKURDI<br>
+            BE (ENTC)
+          </div>
+          <div class="w3-half w3-section">
+            <span class="w3-xlarge" style="color:#ff6347">2020-21</span><br>
+            DCT Academy<br>
+            Full Stack Developer Intern
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <!-- Contact Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey" data-aos="fade-up">Contact Me</h2>
+        <hr style="width:200px" class="w3-opacity" data-aos="fade-up">
+
+        <div class="w3-section">
+          <p data-aos="fade-up"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
+              data-aos="fade-up"></i> Spring
+            Valley, Wadmukhwadi,
+            Pune-Alandi Road,Pune 412105</p>
+          <p data-aos="fade-up"><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
+              data-aos="fade-up"></i> +91
+            8788654017</p>
+          <p data-aos="fade-up"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
+              data-aos="fade-up"> </i>
+            rambedade2308@mail.com</p>
+          <p data-aos="fade-up"><i class="fa fa-github-square fa-fw w3-text-white w3-xxlarge w3-margin-right"
+              data-aos="fade-up"> </i>
+            https://github.com/rambedade/
+          </p>
+
+        </div><br>
+
+
+        `
+        <!-- End Contact Section -->
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge" data-aos="fade-up">
+        <a href="https://www.facebook.com/RamBedade/" target="_blank" class="w3-hover-text-green"><i
+            class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/ramsey_433/" target="_blank" class="w3-hover-text-green"><i
+            class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/BedadeRam" target="_blank" class="w3-hover-text-green"><i
+            class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/ram-bedade-ba6140161/" target="_blank" class="w3-hover-text-green"><i
+            class="fa fa-linkedin w3-hover-opacity"></i></a>
+
+
+
+        <p class="w3-medium" data-aos="fade-up">Designed by Ram with ❤️ </p>
+        <!-- End footer -->
+      </footer>
+
+      <!-- END PAGE CONTENT -->
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+        easing: 'ease-out-quart'
+      });
+    </script>
+</body>
+
+</html>
